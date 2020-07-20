@@ -28,7 +28,7 @@ end
 
 def retrieve_element_from_index(array, index_number)
   arr = [0, 1, "am"]
-  arr[2]
+  arr[index_number]
 end
 
 def retrieve_first_element_from_array(array)
