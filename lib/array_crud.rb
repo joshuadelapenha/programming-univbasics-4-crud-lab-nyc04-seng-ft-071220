@@ -12,11 +12,13 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  arr = [1, 2, 3, 4]
+  arr.unshift("wo")
 end
 
 def remove_element_from_end_of_array(array)
-  
+  arr = [1, 2, 3, 4]
+  arr.unshift("wo")
 end
 
 def remove_element_from_start_of_array(array)
