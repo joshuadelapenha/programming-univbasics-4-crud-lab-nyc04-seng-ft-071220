@@ -23,7 +23,7 @@ end
 
 def remove_element_from_start_of_array(array)
   arr = [1, 2, 3, 4]
-  arr.pop
+  arr.unshift
 end
 
 def retrieve_element_from_index(array, index_number)
